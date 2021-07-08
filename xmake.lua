@@ -1,30 +1,18 @@
-target("4-1")
+target("5-4")
     set_kind("binary")
-    add_files("4-1.c")
+    add_files("5-4.c")
 
-target("5-6")
+target("5-5")
     set_kind("binary")
-    add_files("5-6.c")
+    add_files("5-5.c")
+
+target("4-5")
+    set_kind("binary")
+    add_files("4-5.c")
 
 target("1-1kh")
     set_kind("binary")
     add_files("1-1kh.c")
-
-target("5-1-1")
-    set_kind("binary")
-    add_files("5-1-1.c")
-
-target("5-1kh")
-    set_kind("binary")
-    add_files("5-1kh.c")
-
-target("4-2")
-    set_kind("binary")
-    add_files("4-2.c")
-
-target("3-2")
-    set_kind("binary")
-    add_files("3-2.c")
 
 target("6-3")
     set_kind("binary")
@@ -34,81 +22,97 @@ target("3-1")
     set_kind("binary")
     add_files("3-1.c")
 
-target("5-1")
+target("4-2kh")
     set_kind("binary")
-    add_files("5-1.c")
-
-target("6-2")
-    set_kind("binary")
-    add_files("6-2.c")
-
-target("5-5")
-    set_kind("binary")
-    add_files("5-5.c")
-
-target("4-1kc")
-    set_kind("binary")
-    add_files("4-1kc.c")
-
-target("5-3")
-    set_kind("binary")
-    add_files("5-3.c")
-
-target("4-4")
-    set_kind("binary")
-    add_files("4-4.c")
-
-target("Celsius_to_Fahrenheit")
-    set_kind("binary")
-    add_files("Celsius_to_Fahrenheit.c")
-
-target("6-1")
-    set_kind("binary")
-    add_files("6-1.c")
-
-target("3-3")
-    set_kind("binary")
-    add_files("3-3.c")
-
-target("5-8")
-    set_kind("binary")
-    add_files("5-8.c")
+    add_files("4-2kh.c")
 
 target("4-3")
     set_kind("binary")
     add_files("4-3.c")
 
-target("5-4")
+target("5-2")
     set_kind("binary")
-    add_files("5-4.c")
+    add_files("5-2.c")
 
-target("1-1")
+target("Celsius_to_Fahrenheit")
     set_kind("binary")
-    add_files("1-1.c")
-
-target("4-2kh")
-    set_kind("binary")
-    add_files("4-2kh.c")
+    add_files("Celsius_to_Fahrenheit.c")
 
 target("5-2kh")
     set_kind("binary")
     add_files("5-2kh.c")
 
-target("5-2")
+target("5-6")
     set_kind("binary")
-    add_files("5-2.c")
+    add_files("5-6.c")
 
-target("4-5")
+target("3-3")
     set_kind("binary")
-    add_files("4-5.c")
+    add_files("3-3.c")
+
+target("5-1kh")
+    set_kind("binary")
+    add_files("5-1kh.c")
+
+target("5-8")
+    set_kind("binary")
+    add_files("5-8.c")
+
+target("5-3")
+    set_kind("binary")
+    add_files("5-3.c")
+
+target("5-1-1")
+    set_kind("binary")
+    add_files("5-1-1.c")
 
 target("5-7")
     set_kind("binary")
     add_files("5-7.c")
 
+target("4-2")
+    set_kind("binary")
+    add_files("4-2.c")
+
+target("4-4")
+    set_kind("binary")
+    add_files("4-4.c")
+
+target("6-1")
+    set_kind("binary")
+    add_files("6-1.c")
+
+target("5-1")
+    set_kind("binary")
+    add_files("5-1.c")
+
+target("4-1kc")
+    set_kind("binary")
+    add_files("4-1kc.c")
+
 target("love")
     set_kind("binary")
     add_files("love.c")
+
+target("6-2")
+    set_kind("binary")
+    add_files("6-2.c")
+
+target("1-1")
+    set_kind("binary")
+    add_files("1-1.c")
+
+target("4-1")
+    set_kind("binary")
+    add_files("4-1.c")
+
+target("test")
+    set_kind("binary")
+    add_files("test.c")
+
+target("3-2")
+    set_kind("binary")
+    add_files("3-2.c")
 
 --
 -- If you want to known more usage about xmake, please see https://xmake.io
