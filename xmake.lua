@@ -78,6 +78,10 @@ target("4-4")
     set_kind("binary")
     add_files("4-4.c")
 
+target("7-1")
+    set_kind("binary")
+    add_files("7-1.c")
+
 target("6-1")
     set_kind("binary")
     add_files("6-1.c")
