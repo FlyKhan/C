@@ -53,11 +53,19 @@ target("3-3")
 target("5-1kh")
     set_kind("binary")
     add_files("5-1kh.c")
+<<<<<<< HEAD
+=======
+
+target("5-8")
+    set_kind("binary")
+    add_files("5-8.c")
+>>>>>>> c158982cff6de7c79ecd060acbc49e6256e9b792
 
 target("5-8")
     set_kind("binary")
     add_files("5-8.c")
 
+<<<<<<< HEAD
 target("5-3")
     set_kind("binary")
     add_files("5-3.c")
@@ -77,6 +85,27 @@ target("4-2")
 target("4-4")
     set_kind("binary")
     add_files("4-4.c")
+=======
+target("5-1-1")
+    set_kind("binary")
+    add_files("5-1-1.c")
+
+target("5-7")
+    set_kind("binary")
+    add_files("5-7.c")
+
+target("4-2")
+    set_kind("binary")
+    add_files("4-2.c")
+
+target("4-4")
+    set_kind("binary")
+    add_files("4-4.c")
+
+target("7-1")
+    set_kind("binary")
+    add_files("7-1.c")
+>>>>>>> c158982cff6de7c79ecd060acbc49e6256e9b792
 
 target("6-1")
     set_kind("binary")
