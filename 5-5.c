@@ -4,7 +4,7 @@
 
 int main(){
     double a, b, c, disc, x1, x2, p, q;
-    printf("请输入二元一次方程的a,b,c参数：");
+    printf("请输入一元二次方程的a,b,c参数：");
     scanf("%lf%lf%lf", &a, &b, &c);//输入a,b,c参数，%lf表示输入时会先处理成双精度实数
     disc = b * b - 4 * a * c;
     p = -b / (2.0 * a);
