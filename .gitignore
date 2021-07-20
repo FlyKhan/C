@@ -4,4 +4,5 @@ xmake.lua
 
 /build
 /.xmake
+/.vscode
 test.java
